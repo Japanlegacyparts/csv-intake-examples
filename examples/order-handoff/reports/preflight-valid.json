@@ -1,0 +1,21 @@
+{
+  "report_version": "import-preflight-report/v1",
+  "tool_version": "1.0.1",
+  "checked_at_utc": "2026-11-08T17:50:25+00:00",
+  "contract": {
+    "contract_id": "sample-order-intake",
+    "version": "1.0"
+  },
+  "input": {
+    "filename": "current_orders.csv",
+    "bytes": 144,
+    "sha256": "cb9d6d8d9bd14e227f461939cc800bb3de790d2a3777f6c5ae322bd56020d484"
+  },
+  "result": "PASS",
+  "records_scanned": 3,
+  "issue_count": 0,
+  "issues_truncated": false,
+  "issues_reported": 0,
+  "issues": [],
+  "interpretation": "PASS means the file matched the checks in this contract. A project owner must still review the report and the target system's own import requirements."
+}

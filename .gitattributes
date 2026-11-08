@@ -1,0 +1,3 @@
+examples/** -text
+*.md text eol=lf
+SOURCE_MANIFEST.json text eol=lf

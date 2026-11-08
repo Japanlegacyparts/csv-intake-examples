@@ -1,0 +1,70 @@
+[
+  {
+    "status": "needs_review",
+    "reason": "duplicate_key_right",
+    "key": "O-1001",
+    "left_csv_record": 2,
+    "right_csv_record": "",
+    "left_values": {
+      "status": "open",
+      "amount": "1200.00"
+    },
+    "right_values": {},
+    "different_fields": []
+  },
+  {
+    "status": "needs_review",
+    "reason": "duplicate_key_right",
+    "key": "O-1001",
+    "left_csv_record": "",
+    "right_csv_record": 3,
+    "left_values": {},
+    "right_values": {
+      "status": "paid",
+      "amount": "840.00"
+    },
+    "different_fields": []
+  },
+  {
+    "status": "needs_review",
+    "reason": "duplicate_key_right",
+    "key": "O-1001",
+    "left_csv_record": "",
+    "right_csv_record": 4,
+    "left_values": {},
+    "right_values": {
+      "status": "open",
+      "amount": "1200.00"
+    },
+    "different_fields": []
+  },
+  {
+    "status": "only_left",
+    "reason": "key_not_in_right",
+    "key": "O-1002",
+    "left_csv_record": 3,
+    "right_csv_record": "",
+    "left_values": {
+      "status": "paid",
+      "amount": "840.00"
+    },
+    "right_values": {},
+    "different_fields": []
+  },
+  {
+    "status": "same",
+    "reason": "",
+    "key": "O-1004",
+    "left_csv_record": 4,
+    "right_csv_record": 2,
+    "left_values": {
+      "status": "open",
+      "amount": "230.00"
+    },
+    "right_values": {
+      "status": "open",
+      "amount": "230.00"
+    },
+    "different_fields": []
+  }
+]

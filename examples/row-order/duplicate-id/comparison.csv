@@ -1,0 +1,6 @@
+﻿status,reason,key,left_csv_record,right_csv_record,left_values,right_values,different_fields
+needs_review,duplicate_key_right,O-1001,2,,"{""status"": ""open"", ""amount"": ""1200.00""}",{},[]
+needs_review,duplicate_key_right,O-1001,,3,{},"{""status"": ""paid"", ""amount"": ""840.00""}",[]
+needs_review,duplicate_key_right,O-1001,,4,{},"{""status"": ""open"", ""amount"": ""1200.00""}",[]
+only_left,key_not_in_right,O-1002,3,,"{""status"": ""paid"", ""amount"": ""840.00""}",{},[]
+same,,O-1004,4,2,"{""status"": ""open"", ""amount"": ""230.00""}","{""status"": ""open"", ""amount"": ""230.00""}",[]

@@ -1,0 +1,4 @@
+﻿status,reason,key,left_csv_record,right_csv_record,left_values,right_values,different_fields
+same,,O-1001,2,4,"{""status"": ""open"", ""amount"": ""1200.00""}","{""status"": ""open"", ""amount"": ""1200.00""}",[]
+changed,,O-1002,3,3,"{""status"": ""paid"", ""amount"": ""840.00""}","{""status"": ""paid"", ""amount"": ""1300""}","[""amount""]"
+same,,O-1004,4,2,"{""status"": ""open"", ""amount"": ""230.00""}","{""status"": ""open"", ""amount"": ""230.00""}",[]

@@ -1,0 +1,4 @@
+order_id,customer_name,status,amount
+O-1004,Sample Buyer D,open,230.00
+O-1002,Sample Buyer B,paid,1300
+O-1001,Sample Buyer A,open,1200.00

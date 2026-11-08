@@ -1,0 +1,47 @@
+{
+  "schema": "import-contract/v1",
+  "contract_id": "sample-order-intake",
+  "version": "1.0",
+  "encoding": "utf-8-sig",
+  "delimiter": ",",
+  "header_policy": {
+    "allow_extra_columns": false
+  },
+  "row_count": {
+    "min": 1,
+    "max": 250000
+  },
+  "max_issues_reported": 500,
+  "fields": [
+    {
+      "name": "order_id",
+      "type": "string",
+      "required": true,
+      "unique": true,
+      "max_length": 32
+    },
+    {
+      "name": "customer_name",
+      "type": "string",
+      "required": true,
+      "max_length": 80
+    },
+    {
+      "name": "status",
+      "type": "enum",
+      "required": true,
+      "allowed_values": [
+        "open",
+        "paid",
+        "cancelled"
+      ]
+    },
+    {
+      "name": "amount",
+      "type": "decimal",
+      "required": true,
+      "max_scale": 2
+    }
+  ],
+  "composite_unique": []
+}

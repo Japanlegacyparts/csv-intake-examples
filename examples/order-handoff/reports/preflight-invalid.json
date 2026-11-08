@@ -1,0 +1,40 @@
+{
+  "report_version": "import-preflight-report/v1",
+  "tool_version": "1.0.1",
+  "checked_at_utc": "2026-11-08T17:50:26+00:00",
+  "contract": {
+    "contract_id": "sample-order-intake",
+    "version": "1.0"
+  },
+  "input": {
+    "filename": "invalid_orders.csv",
+    "bytes": 110,
+    "sha256": "445cf3f64a5aa8cb59b0eddb97d3187f24927408790042d6be6b02cf8a2b03bd"
+  },
+  "result": "FAIL",
+  "records_scanned": 2,
+  "issue_count": 3,
+  "issues_truncated": false,
+  "issues_reported": 3,
+  "issues": [
+    {
+      "record_number": 2,
+      "field": "status",
+      "rule": "VALUE_RULE_FAILED",
+      "message": "Value is outside the allowed values listed in the contract."
+    },
+    {
+      "record_number": 2,
+      "field": "amount",
+      "rule": "VALUE_RULE_FAILED",
+      "message": "Value does not match the decimal rule."
+    },
+    {
+      "record_number": 3,
+      "field": "order_id",
+      "rule": "REQUIRED_VALUE_MISSING",
+      "message": "A required value is blank."
+    }
+  ],
+  "interpretation": "PASS means the file matched the checks in this contract. A project owner must still review the report and the target system's own import requirements."
+}

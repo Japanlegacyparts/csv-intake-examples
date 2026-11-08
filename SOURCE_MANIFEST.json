@@ -1,0 +1,169 @@
+{
+  "schema_version": 1,
+  "data_kind": "fictional",
+  "tool_code_included": false,
+  "files": [
+    {
+      "path": "examples/order-handoff/inputs/current_orders.csv",
+      "source_url": "https://factory-csv-preflight.kunaki970.chatgpt.site/samples/order-handoff/inputs/current_orders.csv",
+      "bytes": 144,
+      "sha256": "cb9d6d8d9bd14e227f461939cc800bb3de790d2a3777f6c5ae322bd56020d484",
+      "source_sha256": "cb9d6d8d9bd14e227f461939cc800bb3de790d2a3777f6c5ae322bd56020d484",
+      "operation": "unchanged_public_copy"
+    },
+    {
+      "path": "examples/order-handoff/inputs/import-contract.json",
+      "source_url": "https://factory-csv-preflight.kunaki970.chatgpt.site/samples/order-handoff/inputs/import-contract.json",
+      "bytes": 901,
+      "sha256": "a2d2084e049c981c96660607abdcef155b18bea3dc56c7e29f95303236e4a759",
+      "source_sha256": "a2d2084e049c981c96660607abdcef155b18bea3dc56c7e29f95303236e4a759",
+      "operation": "unchanged_public_copy"
+    },
+    {
+      "path": "examples/order-handoff/inputs/invalid_orders.csv",
+      "source_url": "https://factory-csv-preflight.kunaki970.chatgpt.site/samples/order-handoff/inputs/invalid_orders.csv",
+      "bytes": 110,
+      "sha256": "445cf3f64a5aa8cb59b0eddb97d3187f24927408790042d6be6b02cf8a2b03bd",
+      "source_sha256": "445cf3f64a5aa8cb59b0eddb97d3187f24927408790042d6be6b02cf8a2b03bd",
+      "operation": "unchanged_public_copy"
+    },
+    {
+      "path": "examples/order-handoff/inputs/previous_orders.csv",
+      "source_url": "https://factory-csv-preflight.kunaki970.chatgpt.site/samples/order-handoff/inputs/previous_orders.csv",
+      "bytes": 144,
+      "sha256": "aaea6fca3514e0d852047edae7ba08d937e9fb3f24b8c40d28d6b792187af3f1",
+      "source_sha256": "aaea6fca3514e0d852047edae7ba08d937e9fb3f24b8c40d28d6b792187af3f1",
+      "operation": "unchanged_public_copy"
+    },
+    {
+      "path": "examples/order-handoff/reports/comparison-summary.json",
+      "source_url": "https://factory-csv-preflight.kunaki970.chatgpt.site/samples/order-handoff/reports/comparison-summary.json",
+      "bytes": 1365,
+      "sha256": "dd8e02532bfb0de463d769c47d494c1be94fe5644b52814011eb0c49faae5f8e",
+      "source_sha256": "8fa6e682b6e5dd49f86c8f341fac513fcfa2e21f0448516a4793459b2f6bb27d",
+      "operation": "regenerated_from_unchanged_public_input_bytes"
+    },
+    {
+      "path": "examples/order-handoff/reports/preflight-invalid.json",
+      "source_url": "https://factory-csv-preflight.kunaki970.chatgpt.site/samples/order-handoff/reports/preflight-invalid.json",
+      "bytes": 1164,
+      "sha256": "29a2651f1bdcd56fc33ebf85012c96d8ce7cacbacbbea6e1849877ccd87dfe32",
+      "source_sha256": "7031d780822d4bb6fe92034c568eea263d35623237837b0d51d25bba13bbb1c4",
+      "operation": "regenerated_from_unchanged_public_input_bytes"
+    },
+    {
+      "path": "examples/order-handoff/reports/preflight-valid.json",
+      "source_url": "https://factory-csv-preflight.kunaki970.chatgpt.site/samples/order-handoff/reports/preflight-valid.json",
+      "bytes": 675,
+      "sha256": "c21f20ca545fa1cd68a1c0ab87ff2d18a586b2cdbabed524631748e1e43cbe7c",
+      "source_sha256": "6adde30d64f05d1f236eb9777d2a1bb10c9bd3718a028b5ad783289793e4688a",
+      "operation": "regenerated_from_unchanged_public_input_bytes"
+    },
+    {
+      "path": "examples/row-order/duplicate-id/comparison.csv",
+      "source_url": "https://factory-csv-preflight.kunaki970.chatgpt.site/samples/row-order/duplicate-id/comparison.csv",
+      "bytes": 608,
+      "sha256": "3c30623a864834f9d5ed779b11ba66dc3e025383bc05fd75e8e0426d64975c96",
+      "source_sha256": "3c30623a864834f9d5ed779b11ba66dc3e025383bc05fd75e8e0426d64975c96",
+      "operation": "regenerated_from_unchanged_public_input_bytes"
+    },
+    {
+      "path": "examples/row-order/duplicate-id/comparison.json",
+      "source_url": "https://factory-csv-preflight.kunaki970.chatgpt.site/samples/row-order/duplicate-id/comparison.json",
+      "bytes": 1420,
+      "sha256": "4749e1a886e27c41952a3764358e2598b3b9f69b377b1dc4f535164cfc16d01e",
+      "source_sha256": "7f7543fc03f88882421bf5f5fbcd3cfdcc475607a11b0790be08c893b20b3e66",
+      "operation": "regenerated_from_unchanged_public_input_bytes"
+    },
+    {
+      "path": "examples/row-order/duplicate-id/summary.json",
+      "source_url": "https://factory-csv-preflight.kunaki970.chatgpt.site/samples/row-order/duplicate-id/summary.json",
+      "bytes": 1386,
+      "sha256": "7f7a99cbffc982b8722a77b65dde400ce0d0c00910aef010027b15fc3ddfd9a3",
+      "source_sha256": "d0b6f090f74a35d2885ebe16b333c296ba9429eae59087a0384bb24dfd0bbe0b",
+      "operation": "regenerated_from_unchanged_public_input_bytes"
+    },
+    {
+      "path": "examples/row-order/inputs/before.csv",
+      "source_url": "https://factory-csv-preflight.kunaki970.chatgpt.site/samples/row-order/inputs/before.csv",
+      "bytes": 144,
+      "sha256": "cb9d6d8d9bd14e227f461939cc800bb3de790d2a3777f6c5ae322bd56020d484",
+      "source_sha256": "cb9d6d8d9bd14e227f461939cc800bb3de790d2a3777f6c5ae322bd56020d484",
+      "operation": "unchanged_public_copy"
+    },
+    {
+      "path": "examples/row-order/inputs/duplicate-id.csv",
+      "source_url": "https://factory-csv-preflight.kunaki970.chatgpt.site/samples/row-order/inputs/duplicate-id.csv",
+      "bytes": 144,
+      "sha256": "21c4bb8d5f5deb7c0af5847e40b987cfe6536d26da3adb81c891635d974d0779",
+      "source_sha256": "21c4bb8d5f5deb7c0af5847e40b987cfe6536d26da3adb81c891635d974d0779",
+      "operation": "unchanged_public_copy"
+    },
+    {
+      "path": "examples/row-order/inputs/reordered.csv",
+      "source_url": "https://factory-csv-preflight.kunaki970.chatgpt.site/samples/row-order/inputs/reordered.csv",
+      "bytes": 144,
+      "sha256": "8ab3580819b5c73da70f004e7d62b2c822d243099400d09ea2349142eddd6f94",
+      "source_sha256": "8ab3580819b5c73da70f004e7d62b2c822d243099400d09ea2349142eddd6f94",
+      "operation": "unchanged_public_copy"
+    },
+    {
+      "path": "examples/row-order/inputs/value-changed.csv",
+      "source_url": "https://factory-csv-preflight.kunaki970.chatgpt.site/samples/row-order/inputs/value-changed.csv",
+      "bytes": 142,
+      "sha256": "bb03ed34af140f9b074d463ca19184d29ab2b283109c29bdace2eff9e8c1937a",
+      "source_sha256": "bb03ed34af140f9b074d463ca19184d29ab2b283109c29bdace2eff9e8c1937a",
+      "operation": "unchanged_public_copy"
+    },
+    {
+      "path": "examples/row-order/reordered/comparison.csv",
+      "source_url": "https://factory-csv-preflight.kunaki970.chatgpt.site/samples/row-order/reordered/comparison.csv",
+      "bytes": 456,
+      "sha256": "c6334aed108462a808527f62eceba43e3fe95861ec9e1df3061bf90d6e83023b",
+      "source_sha256": "c6334aed108462a808527f62eceba43e3fe95861ec9e1df3061bf90d6e83023b",
+      "operation": "regenerated_from_unchanged_public_input_bytes"
+    },
+    {
+      "path": "examples/row-order/reordered/comparison.json",
+      "source_url": "https://factory-csv-preflight.kunaki970.chatgpt.site/samples/row-order/reordered/comparison.json",
+      "bytes": 920,
+      "sha256": "5c0f15db9888b9172f4e27dc61b5c7fd5e8359d072c9299503d2ab7763892f80",
+      "source_sha256": "f0c7a66f628336ba4eafecfc03dd7d782bddd1ad4d1672d4948ad769250695d8",
+      "operation": "regenerated_from_unchanged_public_input_bytes"
+    },
+    {
+      "path": "examples/row-order/reordered/summary.json",
+      "source_url": "https://factory-csv-preflight.kunaki970.chatgpt.site/samples/row-order/reordered/summary.json",
+      "bytes": 1351,
+      "sha256": "3a04042c5d2f1c876dabda125e55be346601ae619a41d615629b62dc30545a76",
+      "source_sha256": "497248904b5a46bf9eb1f5eaf374b619e05692427b4ba052c784b8e4eb3f58d8",
+      "operation": "regenerated_from_unchanged_public_input_bytes"
+    },
+    {
+      "path": "examples/row-order/value-changed/comparison.csv",
+      "source_url": "https://factory-csv-preflight.kunaki970.chatgpt.site/samples/row-order/value-changed/comparison.csv",
+      "bytes": 469,
+      "sha256": "0483ef330e69698865514d438de05eebddc86e6fe5c2775e1f88c4b7e2eb5c4d",
+      "source_sha256": "0483ef330e69698865514d438de05eebddc86e6fe5c2775e1f88c4b7e2eb5c4d",
+      "operation": "regenerated_from_unchanged_public_input_bytes"
+    },
+    {
+      "path": "examples/row-order/value-changed/comparison.json",
+      "source_url": "https://factory-csv-preflight.kunaki970.chatgpt.site/samples/row-order/value-changed/comparison.json",
+      "bytes": 941,
+      "sha256": "c7753e189f44f60e9a1eaf80d7919e3bca2defbd54e30e98a130bbe64497b1a8",
+      "source_sha256": "790921c0f1eb9a8536a28c2f2471d410af4d6a64d5faecad7feb780cd8340954",
+      "operation": "regenerated_from_unchanged_public_input_bytes"
+    },
+    {
+      "path": "examples/row-order/value-changed/summary.json",
+      "source_url": "https://factory-csv-preflight.kunaki970.chatgpt.site/samples/row-order/value-changed/summary.json",
+      "bytes": 1355,
+      "sha256": "9127b22ea18bf9a36a65aa5aebb97b047c647d667bfb224244a9b1acc9340c86",
+      "source_sha256": "dc990ab9c0914637db5b6fef922b38c6c8d5982dff1ce031183fd94df791ed41",
+      "operation": "regenerated_from_unchanged_public_input_bytes"
+    }
+  ],
+  "source_site_version": 40,
+  "source_site_commit_sha": "71cbcdcdd577f4dfcb394c7a5c186ac9d5b9a804"
+}

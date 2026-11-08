@@ -1,0 +1,3 @@
+order_id,customer_name,status,amount
+O-1005,Sample Buyer E,pending,not-a-number
+,Sample Buyer F,open,99.00
