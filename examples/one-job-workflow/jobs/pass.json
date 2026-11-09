@@ -1,0 +1,11 @@
+{
+  "before_csv": "../inputs/previous_orders.csv",
+  "after_csv": "../inputs/current_orders.csv",
+  "contract_json": "../inputs/import-contract.json",
+  "key_column": "order_id",
+  "compare_columns": [
+    "customer_name",
+    "status",
+    "amount"
+  ]
+}

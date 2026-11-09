@@ -4,6 +4,18 @@ Small fictional order CSVs with complete example reports. Use them to inspect wh
 
 [日本語の説明](README.ja.md)
 
+## Compare and preflight in one job: inspect the complete result
+
+The current paid kit includes a local job runner that compares two CSVs and checks the current file against an agreed JSON contract. Before buying, inspect the fictional inputs, job settings and actual generated reports for these cases:
+
+- [Contract PASS](examples/one-job-workflow/reports/pass/workflow-result.json): both steps complete. The ID comparison still has one changed ID, one only-before ID and one only-after ID. PASS does not mean the files match.
+- [Contract FAIL](examples/one-job-workflow/reports/contract-fail/preflight.json): both steps complete, with three reported rule violations. This is a finished check with findings.
+- [Contract typo](examples/one-job-workflow/reports/contract-typo/workflow-result.json): comparison completes but preflight does not; `complete=false` and `preflight_result=null`. Partial output is not a passing check.
+
+[Download the free one-job example ZIP](https://github.com/Japanlegacyparts/csv-intake-examples/releases/download/workflow-results-2026-11-10/one-job-result-example-20261110.zip) · [SHA-256 checksums](https://github.com/Japanlegacyparts/csv-intake-examples/releases/download/workflow-results-2026-11-10/SHA256SUMS.txt) · [Read the illustrated result](https://factory-csv-preflight.kunaki970.chatgpt.site/csv-one-job-workflow-example.html)
+
+These are fictional inputs and actual seller-generated example reports, not customer results or evidence of sales. The free ZIP contains no runnable paid program code. To check your own CSVs, the existing [CSV Intake QA Workflow Kit — USD 9 base price](https://japanlegacyparts.gumroad.com/l/csv-intake-qa-workflow-kit?wanted=true&utm_source=github&utm_medium=repository&utm_campaign=csv_workflow_20261110&utm_content=readme_en) supplies the programs, local job runner and Japanese/English instructions. Python 3.10+ is required. Review the final checkout total and terms before payment. The runner does not repair data or import it into a system. Existing owners should use the latest complete kit from their purchase's View content; do not repurchase for this example.
+
 ## Download all the examples in one ZIP
 
 [Download the fictional CSVs and reports](https://github.com/Japanlegacyparts/csv-intake-examples/releases/download/examples-2026-11-09/csv-intake-examples.zip) · [SHA-256 checksums](https://github.com/Japanlegacyparts/csv-intake-examples/releases/download/examples-2026-11-09/SHA256SUMS.txt)

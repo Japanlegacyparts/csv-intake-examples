@@ -1,0 +1,4 @@
+﻿record_number,field,rule,message
+2,status,VALUE_RULE_FAILED,Value is outside the allowed values listed in the contract.
+2,amount,VALUE_RULE_FAILED,Value does not match the decimal rule.
+3,order_id,REQUIRED_VALUE_MISSING,A required value is blank.

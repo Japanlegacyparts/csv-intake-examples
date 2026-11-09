@@ -2,6 +2,18 @@
 
 行順だけの違い、値の変更、重複IDを見分けるための受注CSV見本です。実際の業務データを使う前に、入力と出力の関係を確認できます。[English](README.md)
 
+## 比較と取込前点検を一つのジョブで実行した見本
+
+現在の有料キットには、前回と今回のCSVの比較に続けて、今回のCSVを合意済みのJSON契約で点検する実行器が入っています。購入前に、架空入力とジョブ設定と実際に生成したレポートを読めます。
+
+- [契約PASSのケース](examples/one-job-workflow/reports/pass/workflow-result.json)：二工程が完了しています。比較には値の変更、前回だけのID、今回だけのIDが各一件あります。PASSはファイル同士の一致を意味しません。
+- [契約FAILのケース](examples/one-job-workflow/reports/contract-fail/preflight.json)：二工程が完了し、不備が3件あります。点検が完了して指摘が出た結果です。
+- [契約の設定誤記](examples/one-job-workflow/reports/contract-typo/workflow-result.json)：比較は完了していますが、契約点検は未完了です。`complete=false`、`preflight_result=null`で、途中の出力をPASSとして扱いません。
+
+[一括実行の無料見本ZIP](https://github.com/Japanlegacyparts/csv-intake-examples/releases/download/workflow-results-2026-11-10/one-job-result-example-20261110.zip) / [SHA-256の照合用ファイル](https://github.com/Japanlegacyparts/csv-intake-examples/releases/download/workflow-results-2026-11-10/SHA256SUMS.txt) / [表と説明を付けた結果見本](https://factory-csv-preflight.kunaki970.chatgpt.site/csv-one-job-workflow-example.html)
+
+架空データを販売者が実行した機能見本です。顧客実績や売上の証拠ではありません。無料ZIPに有料プログラムのコードは含みません。自分のCSVを実行する場合は、[既存のCSV Intake QA Workflow Kitの商品と決済画面 — 商品価格9 USD](https://japanlegacyparts.gumroad.com/l/csv-intake-qa-workflow-kit?wanted=true&utm_source=github&utm_medium=repository&utm_campaign=csv_workflow_20261110&utm_content=readme_ja)で、プログラム、一括実行器、日英の手順を取得できます。実行にはPython3.10以降が必要です。支払前に決済画面の最終金額と購入条件を確認してください。データ修正や実システムへの取込は含みません。購入済みの場合はView contentから最新の完全版を取得し、この見本のために再購入しないでください。
+
 ## 見本一式をZIPで取得する
 
 [架空CSVと結果見本をまとめてダウンロード](https://github.com/Japanlegacyparts/csv-intake-examples/releases/download/examples-2026-11-09/csv-intake-examples.zip) / [SHA-256の照合用ファイル](https://github.com/Japanlegacyparts/csv-intake-examples/releases/download/examples-2026-11-09/SHA256SUMS.txt)

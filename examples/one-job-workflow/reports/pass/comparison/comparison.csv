@@ -1,0 +1,5 @@
+﻿status,reason,key,left_csv_record,right_csv_record,left_values,right_values,different_fields
+same,,O-1001,2,2,"{""customer_name"": ""Sample Buyer A"", ""status"": ""open"", ""amount"": ""1200.00""}","{""customer_name"": ""Sample Buyer A"", ""status"": ""open"", ""amount"": ""1200.00""}",[]
+changed,,O-1002,3,3,"{""customer_name"": ""Sample Buyer B"", ""status"": ""open"", ""amount"": ""840.00""}","{""customer_name"": ""Sample Buyer B"", ""status"": ""paid"", ""amount"": ""840.00""}","[""status""]"
+only_left,key_not_in_right,O-1003,4,,"{""customer_name"": ""Sample Buyer C"", ""status"": ""paid"", ""amount"": ""560.00""}",{},[]
+only_right,key_not_in_left,O-1004,,4,{},"{""customer_name"": ""Sample Buyer D"", ""status"": ""open"", ""amount"": ""230.00""}",[]

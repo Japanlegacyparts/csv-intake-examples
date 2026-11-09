@@ -1,0 +1,72 @@
+[
+  {
+    "status": "needs_review",
+    "reason": "empty_key",
+    "key": "",
+    "left_csv_record": "",
+    "right_csv_record": 3,
+    "left_values": {},
+    "right_values": {
+      "customer_name": "Sample Buyer F",
+      "status": "open",
+      "amount": "99.00"
+    },
+    "different_fields": []
+  },
+  {
+    "status": "only_left",
+    "reason": "key_not_in_right",
+    "key": "O-1001",
+    "left_csv_record": 2,
+    "right_csv_record": "",
+    "left_values": {
+      "customer_name": "Sample Buyer A",
+      "status": "open",
+      "amount": "1200.00"
+    },
+    "right_values": {},
+    "different_fields": []
+  },
+  {
+    "status": "only_left",
+    "reason": "key_not_in_right",
+    "key": "O-1002",
+    "left_csv_record": 3,
+    "right_csv_record": "",
+    "left_values": {
+      "customer_name": "Sample Buyer B",
+      "status": "open",
+      "amount": "840.00"
+    },
+    "right_values": {},
+    "different_fields": []
+  },
+  {
+    "status": "only_left",
+    "reason": "key_not_in_right",
+    "key": "O-1003",
+    "left_csv_record": 4,
+    "right_csv_record": "",
+    "left_values": {
+      "customer_name": "Sample Buyer C",
+      "status": "paid",
+      "amount": "560.00"
+    },
+    "right_values": {},
+    "different_fields": []
+  },
+  {
+    "status": "only_right",
+    "reason": "key_not_in_left",
+    "key": "O-1005",
+    "left_csv_record": "",
+    "right_csv_record": 2,
+    "left_values": {},
+    "right_values": {
+      "customer_name": "Sample Buyer E",
+      "status": "pending",
+      "amount": "not-a-number"
+    },
+    "different_fields": []
+  }
+]

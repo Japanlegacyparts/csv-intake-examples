@@ -1,0 +1,21 @@
+{
+  "format_version": 1,
+  "started_at_utc": "2026-11-09T15:12:53.471755+00:00",
+  "complete": true,
+  "preflight_result": "PASS",
+  "comparison_completed": true,
+  "inputs_unchanged": true,
+  "steps": [
+    {
+      "name": "comparison",
+      "exit_code": 0,
+      "finished": true
+    },
+    {
+      "name": "preflight",
+      "exit_code": 0,
+      "finished": true
+    }
+  ],
+  "finished_at_utc": "2026-11-09T15:12:54.093420+00:00"
+}
