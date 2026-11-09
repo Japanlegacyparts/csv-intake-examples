@@ -4,6 +4,8 @@
 
 ## 比較と取込前点検を一つのジョブで実行した見本
 
+[CSV専用の販売案内で、同梱物・無料見本・購入手順を確認できます](https://japanlegacyparts.gumroad.com/csv-workflow#japanese)。商品価格は買い切り9 USDです。支払前に最終総額と購入条件を確認してください。購入済みなら元のView contentを使い、買い直さないでください。
+
 現在の有料キットには、前回と今回のCSVの比較に続けて、今回のCSVを合意済みのJSON契約で点検する実行器が入っています。購入前に、架空入力とジョブ設定と実際に生成したレポートを読めます。
 
 - [契約PASSのケース](examples/one-job-workflow/reports/pass/workflow-result.json)：二工程が完了しています。比較には値の変更、前回だけのID、今回だけのIDが各一件あります。PASSはファイル同士の一致を意味しません。
