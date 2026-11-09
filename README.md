@@ -6,6 +6,8 @@ Small fictional order CSVs with complete example reports. Use them to inspect wh
 
 ## Compare and preflight in one job: inspect the complete result
 
+**English walkthrough:** [Inspect both checks, incomplete runs and the paid kit requirements](https://factory-csv-preflight.kunaki970.chatgpt.site/csv-compare-and-validate-workflow.html).
+
 The current paid kit includes a local job runner that compares two CSVs and checks the current file against an agreed JSON contract. Before buying, inspect the fictional inputs, job settings and actual generated reports for these cases:
 
 - [Contract PASS](examples/one-job-workflow/reports/pass/workflow-result.json): both steps complete. The ID comparison still has one changed ID, one only-before ID and one only-after ID. PASS does not mean the files match.
