@@ -2,6 +2,12 @@
 
 行順だけの違い、値の変更、重複IDを見分けるための受注CSV見本です。実際の業務データを使う前に、入力と出力の関係を確認できます。[English](README.md)
 
+## 見本一式をZIPで取得する
+
+[架空CSVと結果見本をまとめてダウンロード](https://github.com/Japanlegacyparts/csv-intake-examples/releases/download/examples-2026-11-09/csv-intake-examples.zip) / [SHA-256の照合用ファイル](https://github.com/Japanlegacyparts/csv-intake-examples/releases/download/examples-2026-11-09/SHA256SUMS.txt)
+
+ZIPを展開すると、入力CSVと生成済みの結果を確認できます。公開中の見本と説明を収録しています。比較と取込前点検を実行するプログラムは、別売りのキットに含まれます。
+
 ## 購入せずに見る
 
 `examples/row-order/inputs` が入力です。各ケースの `summary.json` が件数、`comparison.csv` が結果の明細です。GitHubのテキスト表示とCSV表示で読めます。整形された表は [公開中の作業見本](https://factory-csv-preflight.kunaki970.chatgpt.site/order-csv-handoff-example.html) で確認できます。
@@ -25,6 +31,8 @@ PASSは、このファイルがこのルールに合ったという意味です�
 このリポジトリにプログラムは含みません。比較と取込前点検の二つのプログラムは、別商品の **CSV Intake QA Workflow Kit** に含まれます。現在の販売表示は **買い切りUS$9** です。支払前に決済画面の総額を確認してください。ソフトウェアごとに同梱のライセンスが適用されます。
 
 [商品と購入条件](https://japanlegacyparts.gumroad.com/l/csv-intake-qa-workflow-kit) / [Windowsで最初の結果を出す手順](https://factory-csv-preflight.kunaki970.chatgpt.site/csv-kit-first-run.html)
+
+プログラムを購入する場合は、[Gumroadの決済画面へ進めます — 商品価格9 USD](https://japanlegacyparts.gumroad.com/l/csv-intake-qa-workflow-kit?wanted=true&utm_source=github&utm_medium=repository&utm_campaign=csv_examples_20261109&utm_content=readme_ja)。支払前に最終金額と購入条件を確認してください。実行にはPython 3.10以降が必要です。
 
 購入済みなら、この見本のための再購入は不要です。キットを新しいフォルダーへ展開し、`tools` と同じ階層にこのリポジトリの `examples` をコピーします。同名フォルダーを上書きしないでください。Python 3.10以降が必要です。コマンドは [English README](README.md#reproduce-with-the-csv-intake-qa-workflow-kit) に記載しています。
 

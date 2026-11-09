@@ -4,6 +4,12 @@ Small fictional order CSVs with complete example reports. Use them to inspect wh
 
 [日本語の説明](README.ja.md)
 
+## Download all the examples in one ZIP
+
+[Download the fictional CSVs and reports](https://github.com/Japanlegacyparts/csv-intake-examples/releases/download/examples-2026-11-09/csv-intake-examples.zip) · [SHA-256 checksums](https://github.com/Japanlegacyparts/csv-intake-examples/releases/download/examples-2026-11-09/SHA256SUMS.txt)
+
+Extract the ZIP to inspect the inputs and pre-generated results. It contains the public examples and documentation; the runnable comparison and preflight programs are supplied separately in the paid kit.
+
 ## Inspect the examples without installing software
 
 1. Open [the input CSV](examples/row-order/inputs/before.csv) in GitHub's file viewer.
@@ -40,6 +46,8 @@ PASS means only that this file matched this contract. It does not establish busi
 The repository contains inputs and pre-generated reports. The comparison and preflight programs are supplied separately in the **CSV Intake QA Workflow Kit**, currently **US$9 for a one-time purchase**. Review the checkout's total before payment. Each program's included license applies to that program.
 
 [View the kit and purchase terms](https://japanlegacyparts.gumroad.com/l/csv-intake-qa-workflow-kit) · [Read the Windows first-run guide](https://factory-csv-preflight.kunaki970.chatgpt.site/csv-kit-first-run.html)
+
+Ready to buy the programs? [Open Gumroad checkout — USD 9 base price](https://japanlegacyparts.gumroad.com/l/csv-intake-qa-workflow-kit?wanted=true&utm_source=github&utm_medium=repository&utm_campaign=csv_examples_20261109&utm_content=readme_en). Review the final total and purchase conditions before paying. Python 3.10 or newer is required to run the tools.
 
 If you already own the kit, do not purchase it again to run these examples. Extract a fresh copy into a new folder. Copy this repository's `examples` folder beside the kit's `tools` folder. Requires Python 3.10 or newer. Run these commands from that kit folder, choosing a new output name each time:
 
