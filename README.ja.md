@@ -30,6 +30,14 @@
 
 単体点検の対応を、比較や一括実行のCP932対応へ広げないでください。文字コードの推定、置換復号、自動修復の実例ではありません。無料の条件作成画面はUTF-8の範囲です。ZIPに有料コードや顧客データは含みません。再現にはPython3.10以降と既存の有料プログラムが必要です。[同じキットの条件と購入先](https://japanlegacyparts.gumroad.com/l/csv-intake-qa-workflow-kit?utm_source=github&utm_medium=repository&utm_campaign=csv_encoding_20261111&utm_content=readme_ja)で最終金額と条件を確認し、購入済みならView contentを使って買い直さないでください。
 
+## 列順の変更と列名の変更を、実レポートで区別する
+
+[列順と列名の架空入力・実レポートZIP](https://github.com/Japanlegacyparts/csv-intake-examples/releases/download/column-results-2026-11-11/column-order-result-example-20261111.zip) / [SHA-256の照合用ファイル](https://github.com/Japanlegacyparts/csv-intake-examples/releases/download/column-results-2026-11-11/SHA256SUMS.txt) / [解説を読む](https://factory-csv-preflight.kunaki970.chatgpt.site/csv-column-order-check-example)
+
+2026年11月11日に未変更の比較1.2.0と点検1.0.1で四回実行した見本です。架空の同じ2件で、列と対応する値を一緒に並べ替えると、識別列`order_id`と比較列`status`、`amount`の比較は一致2件で完了し、契約点検はPASS、不備0件でした。`amount`を`total`へ改名すると、比較は終了コード2で未完了となり報告を作らず、単体点検は完了してFAIL、終了コード1となりました。不備は`MISSING_COLUMN amount`と`UNEXPECTED_COLUMN total`の二件です。実行後も入力全バイトは変わっていません。
+
+一致2件は選択範囲の結果で、全列やCSV全体の一致ではありません。この契約でのPASSを実システムの列順受理へ広げず、道具が列名を推定して対応付けたり、修復・登録したりするとは説明しません。無料ZIPには有料コードや顧客データを含みません。読むだけなら購入不要、再現にはPython3.10以降と既存キットが必要です。[同じキットの条件と購入先](https://japanlegacyparts.gumroad.com/l/csv-intake-qa-workflow-kit?utm_source=github&utm_medium=repository&utm_campaign=csv_columns_20261111&utm_content=readme_ja)を確認し、購入済みならView contentから取得して買い直さないでください。
+
 ## 見本一式をZIPで取得する
 
 [架空CSVと結果見本をまとめてダウンロード](https://github.com/Japanlegacyparts/csv-intake-examples/releases/download/examples-2026-11-09/csv-intake-examples.zip) / [SHA-256の照合用ファイル](https://github.com/Japanlegacyparts/csv-intake-examples/releases/download/examples-2026-11-09/SHA256SUMS.txt)
