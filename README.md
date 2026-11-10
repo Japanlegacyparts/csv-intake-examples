@@ -1,5 +1,14 @@
 # CSV intake examples: compare by ID, then check import rules
 
+## Run these checks on your own CSVs — USD 9
+
+**[Buy the CSV Compare & Import Check kit](https://japanlegacyparts.gumroad.com/l/csv-intake-qa-workflow-kit?utm_source=github&utm_medium=repository&utm_campaign=paid_offer_20261111&utm_content=readme_en&wanted=true)** · [Review requirements and purchase terms](https://japanlegacyparts.gumroad.com/l/csv-intake-qa-workflow-kit?utm_source=github&utm_medium=repository&utm_campaign=paid_offer_20261111&utm_content=readme_en)
+
+For recurring order, customer or inventory CSV handoffs: compare the previous and new file by one stable ID, then validate the new file against agreed import rules. The paid download includes both local tools, a one-job runner and English/Japanese guides. One-time USD 9 base price; review the final checkout total and terms. Python 3.10+ is required. The combined workflow uses UTF-8 CSVs, 1 ID, 1–10 selected comparison columns, at most 10,000,000 bytes per file and 10,000 rows across both files. No automatic repair or live-system import is included.
+
+This repository remains free example data and reports, not the runnable paid kit. After purchase, use **View content → Start here - complete kit with one-job workflow (2026-11-10) → WORKFLOW_EN.md**. Existing owners should download their purchase again without repurchasing. The original examples and instructions follow.
+
+
 ## Create the import contract in English
 
 [Open the free English contract editor](https://factory-csv-preflight.kunaki970.chatgpt.site/csv-contract-builder-en). Set agreed column names, types, required values and uniqueness, then download `import-contract.json` for the existing kit's `--contract` option or the job runner's `contract_json` setting. The editor creates settings only: it does not read, check or import CSVs, transmit your form entries, or store them in browser storage. It covers the same bounded schema subset as the Japanese editor. Using the editor is free; running checks on your own CSVs requires the existing paid programs and Python 3.10+. Existing owners do not need to purchase again.

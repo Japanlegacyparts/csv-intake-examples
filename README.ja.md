@@ -1,5 +1,14 @@
 # CSV取込前点検の架空データと結果見本
 
+## 自分のCSVで比較・取込前点検を実行する — 基本価格9米ドル
+
+**[CSV比較・取込前点検キットを購入する](https://japanlegacyparts.gumroad.com/l/csv-intake-qa-workflow-kit?utm_source=github&utm_medium=repository&utm_campaign=paid_offer_20261111&utm_content=readme_ja&wanted=true)** ／ [動作条件と購入条件を読む](https://japanlegacyparts.gumroad.com/l/csv-intake-qa-workflow-kit?utm_source=github&utm_medium=repository&utm_campaign=paid_offer_20261111&utm_content=readme_ja)
+
+注文・顧客・在庫CSVを定期的に受け取る担当者向けです。前回と今回のCSVを一つの識別列で比較し、今回のCSVを合意済みの取込条件でも点検します。有料ダウンロードには二つのローカルツール、一括実行器、日英手順を含みます。買い切りの基本価格は9米ドル。最終金額と条件は購入画面で確認してください。Python3.10以降が必要です。一括実行はUTF-8、識別列1つ、比較列1〜10個、各10,000,000バイト以内、二本合計10,000行以内です。自動修正と実システムへの取込は含みません。
+
+このリポジトリは無料の架空データと結果見本で、有料プログラム本体ではありません。購入後は **View content → Start here - complete kit with one-job workflow (2026-11-10) → WORKFLOW_JA.md** の順に開きます。購入済みなら元の購入から再取得でき、買い直しは不要です。元の見本と説明を以下に保持しています。
+
+
 行順だけの違い、値の変更、重複IDを見分けるための受注CSV見本です。実際の業務データを使う前に、入力と出力の関係を確認できます。[English](README.md)
 
 ## JSONを手書きせずに、キット用の受入条件を作る
