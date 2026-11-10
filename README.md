@@ -1,5 +1,10 @@
 # CSV intake examples: compare by ID, then check import rules
 
+## Create the import contract in English
+
+[Open the free English contract editor](https://factory-csv-preflight.kunaki970.chatgpt.site/csv-contract-builder-en). Set agreed column names, types, required values and uniqueness, then download `import-contract.json` for the existing kit's `--contract` option or the job runner's `contract_json` setting. The editor creates settings only: it does not read, check or import CSVs, transmit your form entries, or store them in browser storage. It covers the same bounded schema subset as the Japanese editor. Using the editor is free; running checks on your own CSVs requires the existing paid programs and Python 3.10+. Existing owners do not need to purchase again.
+
+
 Small fictional order CSVs with complete example reports. Use them to inspect what a CSV check actually reports before trying a tool on business data.
 
 [日本語の説明](README.ja.md)
