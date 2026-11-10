@@ -4,6 +4,12 @@ Small fictional order CSVs with complete example reports. Use them to inspect wh
 
 [日本語の説明](README.ja.md)
 
+## Prepare your import contract without hand-editing JSON
+
+[Open the free local contract editor (Japanese labels)](https://factory-csv-preflight.kunaki970.chatgpt.site/csv-contract-builder). Set column names, required values, types, allowed values and individual or composite uniqueness, then download `import-contract.json`. The fictional preset matches this repository's published order-intake contract. The editor does not read or upload CSVs, store your settings, or run a CSV check. Use agreed column rules rather than private records.
+
+The generated file can be used as the existing kit's `--contract` input or the job's `contract_json` path. The paid programs are still needed to check your own CSV; preparing the settings is free. For a job, the comparison program's separate file and row limits also apply. Review the requirements before purchase. Existing owners do not need to buy again.
+
 ## Compare and preflight in one job: inspect the complete result
 
 **English walkthrough:** [Inspect both checks, incomplete runs and the paid kit requirements](https://factory-csv-preflight.kunaki970.chatgpt.site/csv-compare-and-validate-workflow.html).
