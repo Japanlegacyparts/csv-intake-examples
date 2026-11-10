@@ -22,6 +22,14 @@
 
 架空データを販売者が実行した機能見本です。顧客実績や売上の証拠ではありません。無料ZIPに有料プログラムのコードは含みません。自分のCSVを実行する場合は、[既存のCSV Intake QA Workflow Kitの商品と決済画面 — 商品価格9 USD](https://japanlegacyparts.gumroad.com/l/csv-intake-qa-workflow-kit?wanted=true&utm_source=github&utm_medium=repository&utm_campaign=csv_workflow_20261110&utm_content=readme_ja)で、プログラム、一括実行器、日英の手順を取得できます。実行にはPython3.10以降が必要です。支払前に決済画面の最終金額と購入条件を確認してください。データ修正や実システムへの取込は含みません。購入済みの場合はView contentから最新の完全版を取得し、この見本のために再購入しないでください。
 
+## CP932の対応範囲を、購入前に実行見本で確認する
+
+[CP932とUTF-8の架空入力・実レポートZIP](https://github.com/Japanlegacyparts/csv-intake-examples/releases/download/encoding-results-2026-11-11/cp932-utf8-result-example-20261110.zip) / [SHA-256の照合用ファイル](https://github.com/Japanlegacyparts/csv-intake-examples/releases/download/encoding-results-2026-11-11/SHA256SUMS.txt) / [読取日付きの解説](https://factory-csv-preflight.kunaki970.chatgpt.site/cp932-csv-preflight-example)
+
+現行キットの単体点検は、契約に`cp932`を明示した架空の日本語2行でPASS、不備0件でした。同じCP932をUTF-8契約で読むと終了コード2で未完了となり、比較プログラムもCP932を拒否しました。同じ架空文字列を意図してUTF-8へ書き出した見本では、単体点検と同一ファイルの比較が完了し、一致は2件でした。2026年11月10日に未変更の点検1.0.1と比較1.2.0で行った五つの実行です。
+
+単体点検の対応を、比較や一括実行のCP932対応へ広げないでください。文字コードの推定、置換復号、自動修復の実例ではありません。無料の条件作成画面はUTF-8の範囲です。ZIPに有料コードや顧客データは含みません。再現にはPython3.10以降と既存の有料プログラムが必要です。[同じキットの条件と購入先](https://japanlegacyparts.gumroad.com/l/csv-intake-qa-workflow-kit?utm_source=github&utm_medium=repository&utm_campaign=csv_encoding_20261111&utm_content=readme_ja)で最終金額と条件を確認し、購入済みならView contentを使って買い直さないでください。
+
 ## 見本一式をZIPで取得する
 
 [架空CSVと結果見本をまとめてダウンロード](https://github.com/Japanlegacyparts/csv-intake-examples/releases/download/examples-2026-11-09/csv-intake-examples.zip) / [SHA-256の照合用ファイル](https://github.com/Japanlegacyparts/csv-intake-examples/releases/download/examples-2026-11-09/SHA256SUMS.txt)

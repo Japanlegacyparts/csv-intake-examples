@@ -31,6 +31,14 @@ The current paid kit includes a local job runner that compares two CSVs and chec
 
 These are fictional inputs and actual seller-generated example reports, not customer results or evidence of sales. The free ZIP contains no runnable paid program code. To check your own CSVs, the existing [CSV Intake QA Workflow Kit — USD 9 base price](https://japanlegacyparts.gumroad.com/l/csv-intake-qa-workflow-kit?wanted=true&utm_source=github&utm_medium=repository&utm_campaign=csv_workflow_20261110&utm_content=readme_en) supplies the programs, local job runner and Japanese/English instructions. Python 3.10+ is required. Review the final checkout total and terms before payment. The runner does not repair data or import it into a system. Existing owners should use the latest complete kit from their purchase's View content; do not repurchase for this example.
 
+## Check CP932 support before choosing the workflow
+
+[Download the free CP932 / UTF-8 input and result ZIP](https://github.com/Japanlegacyparts/csv-intake-examples/releases/download/encoding-results-2026-11-11/cp932-utf8-result-example-20261110.zip) · [SHA-256 checksums](https://github.com/Japanlegacyparts/csv-intake-examples/releases/download/encoding-results-2026-11-11/SHA256SUMS.txt) · [Read the dated worked example](https://factory-csv-preflight.kunaki970.chatgpt.site/cp932-csv-preflight-example)
+
+The existing kit's **standalone preflight** completed PASS with 2 fictional Japanese records and 0 issues when the contract explicitly selected `cp932`. The same CP932 input with a UTF-8 contract stopped incomplete with exit code2 and no report. The **comparison** program also refused CP932. The same fictional text deliberately saved as UTF-8 completed preflight and a self-comparison with 2 matching records. These are five actual runs of unchanged preflight1.0.1 and comparison1.2.0, checked on 10 November2026.
+
+Standalone support does not make the comparison or the one-job workflow accept CP932. No encoding was guessed, no replacement decoding was used, and this is not proof that a real file can be safely converted. The free editor exports UTF-8 rules. The ZIP contains fictional inputs and generated reports, not paid programs or customer results. Python3.10+ and the existing paid programs are required to reproduce the runs. Review the [kit requirements and purchase terms](https://japanlegacyparts.gumroad.com/l/csv-intake-qa-workflow-kit?utm_source=github&utm_medium=repository&utm_campaign=csv_encoding_20261111&utm_content=readme_en) before buying; existing owners should use View content and do not need to buy again.
+
 ## Download all the examples in one ZIP
 
 [Download the fictional CSVs and reports](https://github.com/Japanlegacyparts/csv-intake-examples/releases/download/examples-2026-11-09/csv-intake-examples.zip) · [SHA-256 checksums](https://github.com/Japanlegacyparts/csv-intake-examples/releases/download/examples-2026-11-09/SHA256SUMS.txt)
