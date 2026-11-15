@@ -1,5 +1,12 @@
 # CSV取込前点検の架空データと結果見本
 
+## 現行の取得ファイルと無料見本（2026年11月15日）
+
+現在の完全版は **Complete kit with comparison review counts (2026-11-14)** です。元の領収メールの **View content** からこのファイルを取得し、新しいフォルダーに展開して **WORKFLOW_JA.md** を開いてください。下に残した過去の日付の取得名は履歴です。最初に使うファイルはこの現行名を優先してください。同じ購入の再取得のために買い直す必要はありません。
+
+[契約PASSでも比較に要確認が残る無料見本を見る](https://factory-csv-preflight.kunaki970.chatgpt.site/csv-qa-kit-buying-guide.html#contract-pass-review)／[架空の入力CSVと生成済みレポートを取得する](https://factory-csv-preflight.kunaki970.chatgpt.site/samples/contract-pass-review/contract-pass-comparison-review-example.zip)。今回CSVが取込契約を満たしていても、前回CSVの識別値の重複によって要確認が3レコード残る例です。3件は出力レコード数であり、識別値の種類数や実注文数ではありません。契約PASSは取込承認ではなく、要確認0件も同一内容の証明ではありません。無料ZIPに有料プログラムは含みません。有料キットの基本価格は9米ドルです。支払前に最終総額と購入条件を確認してください。
+
+
 ## 自分のCSVで比較・取込前点検を実行する — 基本価格9米ドル
 
 **[CSV比較・取込前点検キットを購入する](https://japanlegacyparts.gumroad.com/l/csv-intake-qa-workflow-kit?utm_source=github&utm_medium=repository&utm_campaign=paid_offer_20261111&utm_content=readme_ja&wanted=true)** ／ [動作条件と購入条件を読む](https://japanlegacyparts.gumroad.com/l/csv-intake-qa-workflow-kit?utm_source=github&utm_medium=repository&utm_campaign=paid_offer_20261111&utm_content=readme_ja)
