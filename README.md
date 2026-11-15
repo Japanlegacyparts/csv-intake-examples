@@ -1,5 +1,12 @@
 # CSV intake examples: compare by ID, then check import rules
 
+## Current download and a free review example — 15 November 2026
+
+The current complete download is **Complete kit with comparison review counts (2026-11-14)**. From your original receipt choose **View content**, download that file, extract it into a new folder, then open **WORKFLOW_EN.md**. Earlier dated download titles below are retained historical instructions; use this current title first. Existing buyers should not purchase again for the same download.
+
+[Inspect the free contract-PASS/comparison-review example](https://factory-csv-preflight.kunaki970.chatgpt.site/csv-qa-kit-buying-guide.html#contract-pass-review) or [download its fictional CSVs and generated reports](https://factory-csv-preflight.kunaki970.chatgpt.site/samples/contract-pass-review/contract-pass-comparison-review-example.zip). The current CSV passes its import contract while a duplicated ID in the previous CSV leaves **3 output records needing review**. Those are records, not three unique IDs or customer orders. Contract PASS is not import approval, and zero review records would not prove that two files are identical. The example ZIP contains no paid program code. The paid kit remains USD 9 base price; review the checkout total and terms before payment.
+
+
 ## Run these checks on your own CSVs — USD 9
 
 **[Buy the CSV Compare & Import Check kit](https://japanlegacyparts.gumroad.com/l/csv-intake-qa-workflow-kit?utm_source=github&utm_medium=repository&utm_campaign=paid_offer_20261111&utm_content=readme_en&wanted=true)** · [Review requirements and purchase terms](https://japanlegacyparts.gumroad.com/l/csv-intake-qa-workflow-kit?utm_source=github&utm_medium=repository&utm_campaign=paid_offer_20261111&utm_content=readme_en)
