@@ -1,0 +1,39 @@
+{
+  "product": "Data Quality Report",
+  "version": "1.2.0",
+  "left_source": {
+    "filename": "before.csv",
+    "sha256": "2fb333db50f8e48d7146b45af3f77210cdd26a0e1068543477121d10b75ef418"
+  },
+  "right_source": {
+    "filename": "after.csv",
+    "sha256": "d7291e4ca2cc1f484949e0daf59b5a410c5eb0a7ccbeab1285f2bff8bbbd1177"
+  },
+  "left_input_records": 2,
+  "right_input_records": 2,
+  "input_records_represented": 4,
+  "output_records": 3,
+  "status_counts": {
+    "same": 1,
+    "changed": 0,
+    "only_left": 1,
+    "only_right": 1,
+    "needs_review": 0
+  },
+  "review_reason_counts": {},
+  "key_column": "part_id",
+  "comparison_columns": [
+    "quantity"
+  ],
+  "matching_rule": "Exact strings; no trimming, normalization, numeric conversion, fuzzy join or duplicate pairing.",
+  "record_number_rule": "CSV records, header=1; quoted multiline fields remain one record, not physical line numbers.",
+  "limits": {
+    "bytes_per_file": 10000000,
+    "total_data_records": 10000,
+    "comparison_columns": 10
+  },
+  "encoding": "UTF-8 with optional BOM, comma-delimited CSV.",
+  "privacy": "Reports contain selected source values and keys. They are not anonymized.",
+  "csv_cell_protection": "Potential formula keys are prefixed with an apostrophe in comparison.csv. comparison.json retains exact strings.",
+  "completed": true
+}
