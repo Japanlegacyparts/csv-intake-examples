@@ -1,0 +1,4 @@
+﻿status,reason,key,left_csv_record,right_csv_record,left_values,right_values,different_fields
+only_left,key_not_in_right,00123,2,,"{""quantity"": ""10""}",{},[]
+only_right,key_not_in_left,123,,2,{},"{""quantity"": ""10""}",[]
+same,,A-2,3,3,"{""quantity"": ""5""}","{""quantity"": ""5""}",[]
