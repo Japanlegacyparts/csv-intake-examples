@@ -1,5 +1,14 @@
 # CSV取込前点検の架空データと結果見本
 
+## まず無料見本を一つ開く — 結果の閲覧にPythonは不要
+
+1. [先頭ゼロの無料見本ZIPを取得](https://github.com/Japanlegacyparts/csv-intake-examples/raw/refs/heads/main/examples/leading-zero/leading-zero-example.zip)し、ZIP全体を展開します。
+2. `reports/comparison.html` をブラウザーで開きます。架空の識別値 `00123` と `123` は「前回のみ」1件と「今回のみ」1件になります。同じ品物だとは推定しません。
+3. 自分のCSVを点検する場合は、[有料キットの動作条件と購入条件](https://japanlegacyparts.gumroad.com/l/csv-intake-qa-workflow-kit?utm_source=github&utm_medium=repository&utm_campaign=leading_zero_20261116&utm_content=quickstart_ja)を確認します。基本価格9米ドル、Python3.10以降が必要です。保存済みの見本を見るだけなら無料です。この見本ZIPは任意のCSVを検査する道具ではありません。
+
+購入済みなら元の **View content** から下記の現行完全版を取得し、買い直さないでください。このページに残る日付付き見本ZIPは、その時点の配布物です。後から追加した見本をすべて含むとは限りません。
+
+
 [新しい実行見本：CSVの識別値と先頭のゼロ](examples/leading-zero/)
 
 ## 現行の取得ファイルと無料見本（2026年11月15日）
