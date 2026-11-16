@@ -1,0 +1,40 @@
+[
+  {
+    "status": "only_left",
+    "reason": "key_not_in_right",
+    "key": "00123",
+    "left_csv_record": 2,
+    "right_csv_record": "",
+    "left_values": {
+      "quantity": "10"
+    },
+    "right_values": {},
+    "different_fields": []
+  },
+  {
+    "status": "only_right",
+    "reason": "key_not_in_left",
+    "key": "123",
+    "left_csv_record": "",
+    "right_csv_record": 2,
+    "left_values": {},
+    "right_values": {
+      "quantity": "10"
+    },
+    "different_fields": []
+  },
+  {
+    "status": "same",
+    "reason": "",
+    "key": "A-2",
+    "left_csv_record": 3,
+    "right_csv_record": 3,
+    "left_values": {
+      "quantity": "5"
+    },
+    "right_values": {
+      "quantity": "5"
+    },
+    "different_fields": []
+  }
+]
