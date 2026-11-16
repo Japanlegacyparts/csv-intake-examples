@@ -1,5 +1,7 @@
 # CSV intake examples: compare by ID, then check import rules
 
+[New worked example: leading zeros in CSV IDs](examples/leading-zero/)
+
 ## Current download and a free review example — 15 November 2026
 
 The current complete download is **Complete kit with comparison review counts (2026-11-14)**. From your original receipt choose **View content**, download that file, extract it into a new folder, then open **WORKFLOW_EN.md**. Earlier dated download titles below are retained historical instructions; use this current title first. Existing buyers should not purchase again for the same download.
