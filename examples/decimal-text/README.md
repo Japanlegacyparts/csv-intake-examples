@@ -1,5 +1,13 @@
 # CSV quantities: `10` and `10.0` are different text
 
+## Download the complete example / 見本をまとめて取得
+
+[Download the free example ZIP / 無料見本ZIPをダウンロード](https://github.com/Japanlegacyparts/csv-intake-examples/raw/refs/heads/main/examples/decimal-text/decimal-text-example.zip)
+
+Extract the whole ZIP and open `reports/comparison.html`. Python is not needed to view the saved result. Read `START-HERE.txt` first. The bundle contains fictional inputs and reports, not the paid program.
+
+ZIP全体を展開して `reports/comparison.html` を開きます。保存済み結果の閲覧にPythonは不要です。最初に `START-HERE.txt` を読んでください。架空入力と結果の見本であり、有料プログラムは含みません。
+
 This fictional example uses the unchanged CSV comparison tool in CSV Intake QA Workflow Kit. The key is `part_id`; the selected comparison column is `quantity`.
 
 Open [before.csv](before.csv), [after.csv](after.csv), and the generated [comparison.csv](reports/comparison.csv). P-001 changes from `10` to `10.0`; P-002 stays `5`. The actual result is one changed record and one same record, with no left-only, right-only or needs-review records. See [summary.json](reports/summary.json) for source hashes and counts.
