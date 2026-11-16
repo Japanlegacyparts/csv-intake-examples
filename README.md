@@ -143,3 +143,8 @@ The intentional invalid fixture returns FAIL with three issues. It is not a fail
 - No paid program code, credentials, analytics, customer files or payment records are in this repository.
 
 Copyright Japan Legacy Parts. The workflow guides and fictional examples remain copyrighted; this repository does not change the separate licenses supplied with purchased software.
+
+
+## Do you need text differences or numerical equivalence?
+
+[See the free `10` versus `10.0` quantity example](examples/decimal-text/README.md). The actual comparison reports one changed record and one same record. It preserves exact text differences; it does not round, convert units, or decide numerical equivalence. Read the example before buying if your workflow needs tolerances or automatic correction. The example links to the same kit and purchase conditions; existing buyers do not need to buy again.
