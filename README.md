@@ -1,5 +1,14 @@
 # CSV intake examples: compare by ID, then check import rules
 
+## Start with one free example — no Python needed to view it
+
+1. [Download the leading-zero example ZIP](https://github.com/Japanlegacyparts/csv-intake-examples/raw/refs/heads/main/examples/leading-zero/leading-zero-example.zip) and extract the entire ZIP.
+2. Open `reports/comparison.html` in a browser. The fictional ID `00123` and `123` appear as one before-only and one after-only record; the tool does not guess that they represent the same item.
+3. To check your own files, [review the paid kit's requirements and terms](https://japanlegacyparts.gumroad.com/l/csv-intake-qa-workflow-kit?utm_source=github&utm_medium=repository&utm_campaign=leading_zero_20261116&utm_content=quickstart_en). The kit is USD 9 base price and requires Python 3.10+. Viewing this saved example is free and does not run a check on your CSVs.
+
+Existing buyers: use your original **View content** link and the current complete download named below; do not buy again. Dated example ZIPs elsewhere on this page are snapshots and may not include later examples.
+
+
 [New worked example: leading zeros in CSV IDs](examples/leading-zero/)
 
 ## Current download and a free review example — 15 November 2026
