@@ -1,5 +1,13 @@
 # Leading zeros in CSV IDs / CSVの識別値と先頭のゼロ
 
+## Download the complete example / 見本をまとめて取得
+
+[Download the free example ZIP / 無料見本ZIPをダウンロード](https://github.com/Japanlegacyparts/csv-intake-examples/raw/refs/heads/main/examples/leading-zero/leading-zero-example.zip)
+
+Extract the whole ZIP and open `reports/comparison.html`. Python is not needed to view the saved result. Read `START-HERE.txt` first. The bundle contains fictional inputs and reports, not the paid program.
+
+ZIP全体を展開して `reports/comparison.html` を開きます。保存済み結果の閲覧にPythonは不要です。最初に `START-HERE.txt` を読んでください。架空入力と結果の見本であり、有料プログラムは含みません。
+
 This is fictional input data and an actual result from the current paid kit. It is not customer data or evidence of demand.
 
 Compare [before.csv](before.csv) with [after.csv](after.csv): the first part ID changes from `00123` to `123`, while its quantity stays `10`. `A-2` stays unchanged.
