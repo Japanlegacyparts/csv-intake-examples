@@ -1,0 +1,32 @@
+[
+  {
+    "status": "changed",
+    "reason": "",
+    "key": "P-001",
+    "left_csv_record": 2,
+    "right_csv_record": 2,
+    "left_values": {
+      "quantity": "10"
+    },
+    "right_values": {
+      "quantity": "10.0"
+    },
+    "different_fields": [
+      "quantity"
+    ]
+  },
+  {
+    "status": "same",
+    "reason": "",
+    "key": "P-002",
+    "left_csv_record": 3,
+    "right_csv_record": 3,
+    "left_values": {
+      "quantity": "5"
+    },
+    "right_values": {
+      "quantity": "5"
+    },
+    "different_fields": []
+  }
+]
